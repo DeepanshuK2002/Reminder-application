@@ -55,7 +55,7 @@ class ReminderApp:
 
     def set_taskbar_icon(self):
         try:
-            self.root.iconbitmap("C:\\Users\\Deepu Kashyap\\Desktop\\Reminder\\notification.ico")  # Ensure the logo path is correct
+            self.root.iconbitmap("C:\\Users\\Deepu Kashyap\\Desktop\\Reminder\\notification.ico")  # enter the image path here
         except Exception as e:
             messagebox.showerror("Error", f"Could not set taskbar logo: {e}")
 
